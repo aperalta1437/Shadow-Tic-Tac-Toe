@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FlipCoin</class>
+ <widget class="QDialog" name="FlipCoin">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>441</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(100, 100, 100);</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>441</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(100, 100, 100);</string>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>381</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(100, 100, 100, 0.7);
+font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 20px;
+qproperty-alignment: AlignCenter;
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>261</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 15px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>The first player will be decided
+by generating a number.
+Your number will be 1 and the
+computer's number will be 2.
+Click &quot;Generate&quot; to determine
+the first player.</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>381</width>
+       <height>52</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="styleSheet">
+         <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="styleSheet">
+         <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Generate</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>261</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 15px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgba(50, 50, 50);
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>Select below the symbol you
+want to use as your mark and
+hit &quot;Continue&quot; to proceed.</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>381</width>
+       <height>52</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="styleSheet">
+         <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="styleSheet">
+         <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Continue</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>381</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(100, 100, 100, 0.7);
+font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 20px;
+qproperty-alignment: AlignCenter;
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>90</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(150, 150, 150);
+color: white;
+font-size: 75px;
+font-weight: bold;
+border: 5px solid black;</string>
+     </property>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>90</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(150, 150, 150);
+color: white;
+font-size: 75px;
+font-weight: bold;
+border: 5px solid black;</string>
+     </property>
+     <property name="text">
+      <string>O</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3">
+    <widget class="QWidget" name="horizontalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>230</y>
+       <width>381</width>
+       <height>52</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="styleSheet">
+         <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="styleSheet">
+         <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string>Continue</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>261</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 15px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>Now, check the appropiate
+checkbox in regards to your
+opponent below and hit
+&quot;Continue&quot;.</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>140</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 15px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>Computer</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_2">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>140</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 15px;
+qproperty-alignment: AlignCenter;
+background-color: rgb(200, 200, 200);
+border: 5px double rgb(50, 50, 50);
+font-weight: bold;</string>
+     </property>
+     <property name="text">
+      <string>2nd User</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

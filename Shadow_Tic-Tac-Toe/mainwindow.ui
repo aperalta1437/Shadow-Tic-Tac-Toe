@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1000</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(100, 100, 100, 0.7);</string>
+    </property>
+    <widget class="QWidget" name="page_0">
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>30</y>
+        <width>521</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 50px;
+qproperty-alignment: AlignCenter;
+background-color: rgba(200, 200, 200, 0.3);
+border: 5px solid rgba(100, 100, 100, 0.4);</string>
+      </property>
+      <property name="text">
+       <string>Shadow Tic-Tac-Toe</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>260</y>
+        <width>211</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgba(200, 200, 200, 0.3);
+border: 5px double rgba(50, 50, 50, 0.8);
+font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Let's Play!</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgba(200, 200, 200, 0.3);
+border: 5px double rgba(50, 50, 50, 0.8);
+font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>How to Play?</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>480</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font-family: Cursive;
+color: rgb(50, 75, 125);
+font-size: 25px;
+qproperty-alignment: AlignCenter;
+background-color: rgba(200, 200, 200, 0.3);
+border: 5px double rgba(50, 50, 50, 0.8);
+font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
